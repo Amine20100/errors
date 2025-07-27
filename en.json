@@ -1,0 +1,73 @@
+{
+  "common": {
+    "goBack": "Go Back",
+    "language": "Language",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "home": {
+    "title": "Error Pages",
+    "subtitle": "A collection of beautifully designed error pages with attractive and interactive user interfaces",
+    "clickToView": "Click to view error page {{code}}",
+    "footer": "Designed using React, Tailwind CSS, and Framer Motion"
+  },
+  "errors": {
+    "400": {
+      "title": "Bad Request",
+      "description": "The server cannot process your request due to invalid syntax or malformed data"
+    },
+    "401": {
+      "title": "Unauthorized",
+      "description": "You must log in or verify your identity to access this page"
+    },
+    "403": {
+      "title": "Access Forbidden",
+      "description": "You don't have permission to access this page or resource"
+    },
+    "404": {
+      "title": "Page Not Found",
+      "description": "Sorry, the page you're looking for doesn't exist or has been moved to another location"
+    },
+    "408": {
+      "title": "Request Timeout",
+      "description": "The server timed out waiting for your request. Please try again"
+    },
+    "410": {
+      "title": "Gone",
+      "description": "The requested resource is no longer available and will not be available again"
+    },
+    "418": {
+      "title": "I'm a teapot",
+      "description": "I'm a teapot, short and stout. I cannot brew coffee, only tea!"
+    },
+    "429": {
+      "title": "Too Many Requests",
+      "description": "You have sent too many requests in a short period. Please slow down"
+    },
+    "500": {
+      "title": "Internal Server Error",
+      "description": "An internal server error occurred. Please try again later"
+    },
+    "502": {
+      "title": "Bad Gateway",
+      "description": "The server received an invalid response from the upstream server"
+    },
+    "503": {
+      "title": "Service Unavailable",
+      "description": "The service is currently unavailable due to maintenance or overload. Please try again later"
+    },
+    "504": {
+      "title": "Gateway Timeout",
+      "description": "The server did not receive a timely response from the upstream server"
+    },
+    "507": {
+      "title": "Insufficient Storage",
+      "description": "The server is unable to store the representation needed to complete the request"
+    },
+    "511": {
+      "title": "Network Authentication Required",
+      "description": "You need to authenticate to gain network access"
+    }
+  }
+}
+
